@@ -1,0 +1,2 @@
+@ECHO OFF
+TASKKILL.EXE /F /IM WebDev.WebServer40.EXE>NUL

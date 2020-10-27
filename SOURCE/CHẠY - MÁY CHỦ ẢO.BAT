@@ -1,0 +1,5 @@
+@ECHO OFF
+TASKKILL.EXE /F /IM WebDev.WebServer40.EXE>NUL
+START ASPX.SERVER\WebDev.WebServer40.EXE /port:9999 /path:"%CD%\RAU_SACH_HONG_THU"
+PING -n 3 127.0.0.1>NUL
+START http://localhost:9999
